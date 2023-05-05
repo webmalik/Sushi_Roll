@@ -1,0 +1,109 @@
+.select-city {
+  height: 100vh;
+  background-image: url("../img/main-banner.png");
+  background-size: 100%;
+  h3 {
+    display: flex;
+    color: $white_color;
+    margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-xs-12 .col-sm-12 {
+    h3 {
+      font-size: 26px;
+    }
+    .city-button {
+      margin-bottom: 25px;
+    }
+  }
+  .city-hover {
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .hover-center {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    .big-logo {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    .city-button {
+      width: 100%;
+      max-width: 187px;
+      min-width: 187px;
+      font-size: 24px;
+      margin-bottom: 25px;
+      height: 56px;
+      border-radius: 6px;
+      color: $white_color;
+      border: 1px $secondary_color solid;
+      background-color: rgba(235, 28, 35, 0.15);
+    }
+  }
+  .buy-hover-center {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    .big-logo {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @include media("max","sm") {
+    img {
+      width: 150px;
+    }
+    h3 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+  .button-wrapper {
+    display: flex;
+    justify-content: center;
+    .city-button-fill {
+      width: 100%;
+      max-width: 350px;
+      min-width: 350px;
+      font-size: 30px;
+      height: 80px;
+      border-radius: 6px;
+      color: $white_color;
+      background-color: $secondary_color;
+    }
+  }
+}
+
