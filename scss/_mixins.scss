@@ -1,0 +1,41 @@
+@mixin tr_duration ($time) {
+	-webkit-transition-duration: $time;
+	-moz-transition-duration: $time;
+	-o-transition-duration: $time;
+	-ms-transition-duration: $time;
+	transition-duration: $time;
+}
+/*
+	! Media mixin
+*/
+
+
+@mixin media($minmax, $media) {
+
+	@each $size,
+	$resolution in $sizes {
+		@if $media ==$size {
+			@if ($minmax !="within") {
+				@media (#{$minmax}-width: $resolution) {
+					@content;
+				}
+			}
+
+			@else {
+				@if (index(map-keys($sizes), $media) > 1) {
+					@media (min-width: getPreviousSize($media)) and (max-width: $resolution) {
+						@content;
+					}
+				}
+
+				@else {
+					@media (max-width: $resolution) {
+						@content;
+					}
+				}
+			}
+		}
+	}
+}
+
+// ! End Media mixin

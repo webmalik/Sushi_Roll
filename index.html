@@ -1,364 +1,577 @@
 <!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Royal roll</title>
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-<div class="wrapper">
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <nav class="navigation">
-            <div class="logo">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" alt="logo" width="65px" height="60px">
-                </a>
-            </div>
-            <div class="collapse-menu">
-                <div class="collapsed-menu" id="toggle-menu">
-                    <img src="img/fi-bs-menu-burger.svg" alt="burger-menu">
-                </div>
-            </div>
-            <ul class="nav-list">
-                <li><a class = "active" href="#">Главная</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">О Доставке</a></li>
-            </ul>
-            <div class="drop-basket">
-                <div  class="drop-nav">
-                    <a class="drop-nav-toggle" href="#">
-                        RU <img src="img/Vector%203.svg" alt="">
-                    </a>
-                    <ul class="drop-nav-list">
-                        <li class="drop-nav-item"><a href="#">EN</a></li>
-                        <li class="drop-nav-item"><a href="#">UA</a></li>
-                    </ul>
-                </div>
-                <div class="basket-icon">
-                    <a class="basket-icon-circle" href="#">
-                        <img class="basket-icon-img" src="img/bx_bxs-basket.svg" alt="basket">
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="img/main-banner-carousel.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block banner">
-                        <h1 class="banner-header">
-                            В каждом кусочке - вкус искусства,
-                            только у нас - лучшие суши города!
-                        </h1>
-                        <div class="banner-text">
-                            Погрузитесь в удивительный мир вкусов и насладитесь искусным
-                            сочетанием свежих ингредиентов, которые превратят ваше обычное
-                            обеденное время в незабываемый гастрономический опыт.
-                        </div>
-                        <div class="banner-button">
-                            <a href="#">Заказать</a>
-                        </div>
-                        <div class="banner-contacts">
-                            <div class="banner-tel">
-                                <img src="img/phone-filled.svg" alt="phone-icon">
-                                +38 (066) 330-30-60
-                            </div>
-                            <div class="banner-address">
-                                <img src="img/google-map.svg" alt="map-icon">
-                                г. Доброполье, остановка «Новый Рынок»
-                            </div>
-                        </div>
-                        <div class="banner-label">
-                            <span class="before"></span>
-                            <span class="label">Hype Sushi</span>
-                            <span class="after"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="img/IMG_2570%20(2)%201.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block banner">
-                        <h1 class="banner-header">
-                            В каждом кусочке - вкус искусства,
-                            <br>только у нас - лучшие суши города!
-                        </h1>
-                        <div class="banner-text">
-                            Погрузитесь в удивительный мир вкусов и насладитесь искусным
-                            сочетанием свежих ингредиентов, которые превратят ваше обычное
-                            обеденное время в незабываемый гастрономический опыт.
-                        </div>
-                        <div class="banner-button">
-                            <a href="#">Заказать</a>
-                        </div>
-                        <div class="banner-contacts">
-                            <div class="banner-tel">
-                                <img src="img/phone-filled.svg" alt="phone-icon">
-                                +38 (066) 330-30-60
-                            </div>
-                            <div class="banner-address">
-                                <img src="img/google-map.svg" alt="map-icon">
-                                г. Доброполье, остановка «Новый Рынок»
-                            </div>
-                        </div>
-                        <div class="banner-label">
-                            <span class="before"></span>
-                            <span class="label">Hype Sushi</span>
-                            <span class="after"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="img/IMG_2577%20(2)%201.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block banner">
-                        <h1 class="banner-header">
-                            В каждом кусочке - вкус искусства,
-                            <br>только у нас - лучшие суши города!
-                        </h1>
-                        <div class="banner-text">
-                            Погрузитесь в удивительный мир вкусов и насладитесь искусным
-                            сочетанием свежих ингредиентов, которые превратят ваше обычное
-                            обеденное время в незабываемый гастрономический опыт.
-                        </div>
-                        <div class="banner-button">
-                            <a href="#">Заказать</a>
-                        </div>
-                        <div class="banner-contacts">
-                            <div class="banner-tel">
-                                <img src="img/phone-filled.svg" alt="phone-icon">
-                                +38 (066) 330-30-60
-                            </div>
-                            <div class="banner-address">
-                                <img src="img/google-map.svg" alt="map-icon">
-                                г. Доброполье, остановка «Новый Рынок»
-                            </div>
-                        </div>
-                        <div class="banner-label">
-                            <span class="before"></span>
-                            <span class="label">Hype Sushi</span>
-                            <span class="after"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="row button-block">
-                    <button class="border-button active">
-                        <img src="img/emojione-monotone_sushi.svg" alt="Суши и роллы">
-                        Суши и роллы
-                    </button>
-                    <button class="border-button">
-                        <img src="img/cryptocurrency_sushi.svg" alt="Суши и роллы">
-                        Маки роллы
-                    </button>
-                    <button class="border-button">
-                        <img src="img/Group.svg" alt="Суши и роллы">
-                        Сет суш и ролл
-                    </button>
-                    <button class="border-button">
-                        <img src="img/icon-park-solid_sandwich.svg" alt="Суши и роллы">
-                        Сэндвич
-                    </button>
-                    <button class="border-button">
-                        <img src="img/emojione-monotone_green-salad.svg" alt="Суши и роллы">
-                        Салаты
-                    </button>
-                </div>
-                <div class="row">
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 product-cart">
-                        <img src="img/DFDFDFFD_13.png" alt="Суши">
-                        <h4>Royal roll</h4>
-                        <p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус (сонный, уксус цитрусовый)</p>
-                        <div class="cost-group">
-                            <div class="price">
-                                <p><span>487</span>грн,</p> 120г
-                            </div>
-                            <div class="add-to-basket">
-                                <a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <button class="view_all">
-                            Посмотреть всё меню
-                            <img src="img/Vector%203.svg" alt="">
-                        </button>
-                    </div>
-                </div>
-                <div class="row info-container">
-                    <div class="col-xl-6 col-sm-12">
-                        <h1>Как сделать заказ?</h1>
-                        <div class="info-block">
-                            <div class="info-img">
-                                <img src="img/for-site.svg" alt="">
-                            </div>
-                            <div class="info-text">
-                                <h3>На сайте</h3>
-                                <p>Вы можете выбрать блюда в разделе Каталог</p>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div class="info-img">
-                                <img src="img/footer-tel.svg" alt="">
-                            </div>
-                            <div class="info-text">
-                                <h3>По телефону</h3>
-                                <p>+38 (066) 330-30-60</p>
-                                <p>Ежедневно с 10:00 до 19:00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-sm-12">
-                        <h1>Как получить заказ?</h1>
-                        <div class="info-block">
-                            <div class="info-img">
-                                <img src="img/footer-carrier.svg" alt="">
-                            </div>
-                            <div class="info-text">
-                                <h3>ДОСТАВКА КУРЬЕРОМ</h3>
-                                <p>Вы оплачиваете и заказ, и доставку</p>
-                            </div>
-                        </div>
-                        <div class="info-block">
-                            <div class="info-img">
-                                <img src="img/footer-time.svg" alt="">
-                            </div>
-                            <div class="info-text">
-                                <h3>ДОСТАВКА В УКАЗАННОЕ ВРЕМЯ</h3>
-                                <p>Укажите время, к которому вы хотите получить заказ, и мы доставим его точно в срок</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <footer class="row">
-                    <div class="col-3 work-block">
-                        <div class="col-12">
-                            <h5>Режим работы</h5>
-                        </div>
-                        <div class="col-12">
-                            Ежедневно с 10:00 до 19:00
-                        </div>
-                        <div class="col-12">
-                            Доставка с 10:00 до 19:00
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="col-12 footer-navigation">
-                            <ul class="nav-list">
-                                <li><a class = "active" href="#">Главная</a></li>
-                                <li><a href="#">Каталог</a></li>
-                                <li><a href="#">О Доставке</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 footer-button">
-                            <div class="col-6">
-                                <button class="footer-button-fill">
-                                    Оформить заказ
-                                </button>
-                            </div>
-                            <div class="col-6">
-                                <button class="footer-button-sharp">
-                                    Посмотреть корзину
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3 social">
-                        <img src="img/footer-insta.svg" alt="">
-                        <img src="img/footer-facebook.svg" alt="">
-                        <div class="col-12">
-                            <img src="img/carbon_phone-filled.svg" alt="">
-                            +38 (066) 330-30-60
-                        </div>
-                    </div>
-                </footer>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 politic">
-        2023 Политика обработки персональных данных
-    </div>
 
-</div>
-<!--Javascript-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-<script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="js/main.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Royal roll</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<heder class="header">
+			<div class="slider-wrapper">
+				<div class="slider__background">
+					<div class="slider">
+						<div class="slider__item">
+							<img src="img/carousel-02.png" alt="Slide 1">
+						</div>
+						<div class="slider__item">
+							<img src="img/carousel-03.png" alt="Slide 2">
+						</div>
+						<div class="slider__item">
+							<img src="img/carousel-04.png" alt="Slide 3">
+						</div>
+						<div class="slider__item">
+							<img src="img/carousel-05.png" alt="Slide 3">
+						</div>
+					</div>
+				</div>
+				<ul class="slider-pagination"></ul>
+			</div>
+			<div class="container">
+				<div class="header__navigation">
+					<div class="header__body">
+						<a href="" class="header__logo">
+							<img src="img/logo.png" alt="">
+						</a>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<nav class="header__menu">
+							<ul class="header__list">
+								<li>
+									<a href="" class="header__link">Главная</a>
+								</li>
+								<li>
+									<a href="" class="header__link">Каталог</a>
+								</li>
+								<li>
+									<a href="" class="header__link">О Доставке</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="header__lang-basket">
+							<div class="lang">
+								<a class="lang__link" href="#">
+									RU <img src="img/Vector%203.svg" alt="">
+								</a>
+								<ul class="lang__list">
+									<li class="lang__item">
+										<a href="#">EN</a>
+									</li>
+									<li class="lang__item">
+										<a href="#">UA</a>
+									</li>
+								</ul>
+							</div>
+							<div class="basket">
+								<a class="basket__icon" href="#">
+									<img class="basket__image" src="img/bx_bxs-basket.svg" alt="basket">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="banner">
+					<h1 class="banner__header">
+						В каждом кусочке - вкус искусства,
+						только у нас - лучшие суши города!
+					</h1>
+					<div class="banner__text">
+						Погрузитесь в удивительный мир вкусов и насладитесь искусным
+						сочетанием свежих ингредиентов, которые превратят ваше обычное
+						обеденное время в незабываемый гастрономический опыт.
+					</div>
+					<div class="button banner__button">
+						<button class="button__fill">
+							Заказать
+						</button>
+					</div>
+					<div class="banner__contacts">
+						<div class="banner__tel">
+							<img src="img/phone-filled.svg" alt="phone-icon">
+							+38 (066) 330-30-60
+						</div>
+						<div class="banner__address">
+							<img src="img/google-map.svg" alt="map-icon">
+							г. Доброполье, остановка «Новый Рынок»
+						</div>
+					</div>
+					<div class="banner__label">
+						<span class="banner__label-before"></span>
+						<span class="banner__label-text">Hype Sushi</span>
+						<span class="banner__label-after"></span>
+					</div>
+				</div>
+			</div>
+		</heder>
+		<div class="container">
+			<main>
+				<div class="categories">
+					<button class="categories__button active">
+						<img src="img/emojione-monotone_sushi.svg" alt="Суши и роллы">
+						Суши и роллы
+					</button>
+					<button class="categories__button">
+						<img src="img/cryptocurrency_sushi.svg" alt="Суши и роллы">
+						Маки роллы
+					</button>
+					<button class="categories__button">
+						<img src="img/Group.svg" alt="Суши и роллы">
+						Сет суш и ролл
+					</button>
+					<button class="categories__button">
+						<img src="img/icon-park-solid_sandwich.svg" alt="Суши и роллы">
+						Сэндвич
+					</button>
+					<button class="categories__button">
+						<img src="img/emojione-monotone_green-salad.svg" alt="Суши и роллы">
+						Салаты
+					</button>
+				</div>
+				<div class="catalog">
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+					<div class="product-cart">
+						<img src="img/DFDFDFFD_13.png" alt="Суши">
+						<h4>Royal roll</h4>
+						<p>Лосось, рис для суши, угорь, сыр сливочный, соус, икра лососечная, васаби, лимон, укроп, соус
+							(сонный, уксус цитрусовый)</p>
+						<div class="product-cart__cost">
+							<div class="product-cart__price">
+								<p><span>487</span>грн,</p> 120г
+							</div>
+							<div class="product-cart__add-to-basket">
+								<a href="#"><img src="img/add_to_cost.svg" alt="Add to basket"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="button view-all">
+					<button class="button__fill">
+						Посмотреть всё меню
+						<img src="img/Vector%203.svg" alt="">
+					</button>
+				</div>
+				<div class="info">
+					<div class="info__column">
+						<div class="info__header">
+							<h1>Как сделать заказ?</h1>
+						</div>
+						<div class="info__block">
+							<div class="info__image">
+								<img src="img/for-site.svg" alt="">
+							</div>
+							<div class="info__text">
+								<h3>На сайте</h3>
+								<p>Вы можете выбрать блюда в разделе Каталог</p>
+							</div>
+						</div>
+						<div class="info__block">
+							<div class="info__image">
+								<img src="img/footer-tel.svg" alt="">
+							</div>
+							<div class="info__text">
+								<h3>По телефону</h3>
+								<p>+38 (066) 330-30-60</p>
+								<p>Ежедневно с 10:00 до 19:00</p>
+							</div>
+						</div>
+					</div>
+					<div class="info__column">
+						<div class="info__header">
+							<h1>Как получить заказ?</h1>
+						</div>
+						<div class="info__block">
+							<div class="info__image">
+								<img src="img/footer-carrier.svg" alt="">
+							</div>
+							<div class="info__text">
+								<h3>ДОСТАВКА КУРЬЕРОМ</h3>
+								<p>Вы оплачиваете и заказ, и доставку</p>
+							</div>
+						</div>
+						<div class="info__block">
+							<div class="info__image">
+								<img src="img/footer-time.svg" alt="">
+							</div>
+							<div class="info__text">
+								<h3>ДОСТАВКА В УКАЗАННОЕ ВРЕМЯ</h3>
+								<p>Укажите время, к которому вы хотите получить заказ, и мы доставим его точно в срок</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="work">
+					<div class="work__block">
+						<h5>Режим работы</h5>
+					</div>
+					<div class="work__block">
+						Ежедневно с 10:00 до 19:00
+					</div>
+					<div class="work__block">
+						Доставка с 10:00 до 19:00
+					</div>
+				</div>
+				<div class="footer-menu">
+					<div class="footer-menu__navigation">
+						<ul>
+							<li><a class="active" href="#">Главная</a></li>
+							<li><a href="#">Каталог</a></li>
+							<li><a href="#">О Доставке</a></li>
+						</ul>
+					</div>
+					<div class="footer-menu__button button">
+						<button class="button__fill">
+							Оформить заказ
+						</button>
+						<button class="button__sharp" id="view__order">
+							Посмотреть корзину
+						</button>
+					</div>
+				</div>
+				<div class="social">
+					<div class="social__icon">
+						<a href="#"><img src="img/footer-insta.svg" alt=""></a>
+						<a href="#"><img src="img/footer-facebook.svg" alt=""></a>
+					</div>
+					<div class="social__phone">
+						<a href="tel:+380663303060">
+							<img src="img/carbon_phone-filled.svg" alt="">
+							<span>+38 (066) 330-30-60</span>
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<div class="order">
+		<div class="order__background"></div>
+		<div class="order__block">
+			<div class="order__title">
+				<h3>Ваши заказы</h3>
+			</div>
+			<div class="order__list">
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+				<div class="order__item">
+					<div class="order__image">
+						<img src="img/DFDFDFFDD_22.png" alt="Royall Roll">
+					</div>
+					<div class="order__description">
+						<h4>Роял ролл</h4>
+						<span class="order__description-weigth">
+							180г
+						</span>
+					</div>
+					<div class="order__count">
+						<button class="order__count-button">
+							-
+						</button>
+						<span class="order__count-value">
+							1
+						</span>
+						<button class="order__count-button">
+							+
+						</button>
+					</div>
+					<div class="order__price">
+						487 <span class="order__price-currency">грн</span>
+					</div>
+				</div>
+			</div>
+			<div class="order__bottom">
+				<div class="order__price">
+					<h5>Вместе:</h5>487
+					<span class="order__price-currency">грн</span>
+				</div>
+				<div class="button">
+					<button class="button__fill-order">
+						Оформить заказ
+					</button>
+					<button class="button__sharp-order" id="close__order">
+						Продолжить покупки
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12 politic">
+		2023 Политика обработки персональных данных
+	</div>
+	<!--Javascript-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+		integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/siema@1.5.1/dist/siema.min.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
+
 </html>
